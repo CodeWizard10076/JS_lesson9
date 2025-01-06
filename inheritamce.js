@@ -1,7 +1,6 @@
-// הגדרה ואיפוס של count
 HtmlElement.prototype.count = 1;
 
-// הגדרה של הקונסטרקטור עם id אוטומטי
+
 function HtmlElement(elementType,textContent) {
     this.elementType=elementType
     this.textContent=textContent
